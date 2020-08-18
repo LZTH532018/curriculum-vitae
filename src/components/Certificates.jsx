@@ -5,15 +5,12 @@ import PStyled from '../styled/PStyled';
 
 const Certificates = props => (
     <div className="Certificates">
-        <H2Styled name="Certificates" />
+        <H2Styled name="Certificados" />
         <div className="Certificates-container">
-            {
-                props.data.map((cert, index) => (
-                    <div className='Certificates-item' key={`Certificates-${index}`}>
-                        <H3Styled>{cert.name} @ {cert.institution}<span>{cert.date}</span></H3Styled>
-                        <PStyled name={cert.description} />
-                    </div>
-                ))}
+            <div className='Certificates-item'>
+                <H3Styled>Ingenieria en Tecnologias de la informacion @ Universidad Tecnologica de la Huasteca Hidalguense<span>30/04/2020</span></H3Styled>
+                <PStyled name="Titulo universitario." />
+            </div>
         </div>
     </div>
 );

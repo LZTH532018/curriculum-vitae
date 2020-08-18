@@ -60,16 +60,16 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
                 </figure>
             </AboutAvatar>
             <AboutName>
-                <AboutH2>{name}</AboutH2>
+                <AboutH2>Luis Gerardo Trejo Fernández</AboutH2>
             </AboutName>
             <div className="About-profession">
                 <AboutProfession>{profession}</AboutProfession>
             </div>
             <div className="About-desc">
-                <AboutBio>{bio}</AboutBio>
+                <AboutBio>Soy un entusiasta de la programacion, me gusta el anime y amo a mi esposa Zena</AboutBio>
             </div>
             <div className="About-location">
-                <AboutLocation>{address}</AboutLocation>
+                <AboutLocation>Monterrey, Nuevo León, Mexico.</AboutLocation>
             </div>
             <div className="About-social">
                 <Social social={social} />

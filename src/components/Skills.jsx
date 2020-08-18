@@ -54,19 +54,63 @@ const SkillsSpan = styled.span`
     }
 `;
 
-const Skills = props => (
+const Skills = () => (
     <div className="Skills">
         <SkillsContainer>
-
-            {props.data.map( (skill, index) => (
-                <div className="Skills-item" key={`Skills-${index}`}>
-                    <SkillsH5>{skill.name}</SkillsH5>
-                    <SkillsLine>
-                        <SkillsSpan width={skill.percentage} />
-                    </SkillsLine>
-                </div>
-            ))}
-
+            <div className="Skills-item">
+                <SkillsH5>HTML</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="95%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>CSS</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="80%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>PHP</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="70%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>SQL</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="70%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>JavaScript</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="70%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>React</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="30%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>Wordpress</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="30%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>C#</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="60%" />
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>Java</SkillsH5>
+                <SkillsLine>
+                    <SkillsSpan width="60%" />
+                </SkillsLine>
+            </div>
         </SkillsContainer>
     </div>
 );
