@@ -66,7 +66,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
                 <AboutProfession>{profession}</AboutProfession>
             </div>
             <div className="About-desc">
-                <AboutBio>Soy un entusiasta de la programacion, me gusta el anime y amo a mi esposa Zena</AboutBio>
+                <AboutBio>Soy un entusiasta de la programacion, me gusta leer, el anime y amo a mi esposa Zena</AboutBio>
             </div>
             <div className="About-location">
                 <AboutLocation>Monterrey, Nuevo León, Mexico.</AboutLocation>
