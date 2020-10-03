@@ -56,7 +56,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
         <div className="About-container">
             <AboutAvatar>
                 <figure>
-                    <AboutImg src="https://scontent.fntr3-1.fna.fbcdn.net/v/t1.0-9/50655414_1173240319499973_6193178876160507904_n.jpg?_nc_cat=111&_nc_sid=7aed08&_nc_eui2=AeGg6mCm_l6ZjAx9EHm0Tw0mdrrTtxbjJbx2utO3FuMlvBtWQEcyGD1RQpxCD6LosqDV2qurq_TKBgEgM31cNZp9&_nc_ohc=TvVNk_awvfEAX_M-AxF&_nc_ht=scontent.fntr3-1.fna&oh=259cd61144ab59d793d2fd0d09bc0c7a&oe=5F616FE9" alt={name} />
+                    <AboutImg src="https://web.facebook.com/photo.php?fbid=1168886056602066&set=pb.100004420471310.-2207520000..&type=3" alt={name} />
                 </figure>
             </AboutAvatar>
             <AboutName>
