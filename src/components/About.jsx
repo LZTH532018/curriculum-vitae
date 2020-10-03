@@ -56,7 +56,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
         <div className="About-container">
             <AboutAvatar>
                 <figure>
-                    <AboutImg src="https://scontent.fmex10-2.fna.fbcdn.net/v/t1.0-9/50411563_1168886059935399_4860145182101733376_o.jpg?_nc_cat=100&_nc_sid=174925&_nc_eui2=AeHEohvU_R85fNYH6WdUjMZ-1N9I14VWF0fU30jXhVYXRyUICqrD47Y7SYPklTm4ykIBATge8HRDNaYxOPoyhMom&_nc_ohc=WaxDpCuLkuQAX9gJYPr&_nc_ht=scontent.fmex10-2.fna&oh=b1a5c5698237e02c2833b448a6764e62&oe=5F9F23BE" alt={name} />
+                    <AboutImg src="https://scontent.fmex10-2.fna.fbcdn.net/v/t1.0-9/38130811_1049080998582573_8893257899841683456_n.jpg?_nc_cat=107&_nc_sid=174925&_nc_eui2=AeFmNe6zREP0lEccE7aE6l39nUis1DmQCyGdSKzUOZALITvp9fiulqzHhWZNJjvQ3x2hlXxkLBO12dhOLJEkx6jc&_nc_ohc=QCr9WeB-GKcAX_Jbo3L&_nc_ht=scontent.fmex10-2.fna&oh=19dfd693bfa4f059ba14cfa312f3d2dd&oe=5F9BC8D6" alt={name} />
                 </figure>
             </AboutAvatar>
             <AboutName>
